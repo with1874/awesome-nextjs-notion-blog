@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'with1874',
-  domain: 'with1874.ltd',
+  domain: 'https://awesome-nextjs-notion-blog-sepia.vercel.app/',
   author: 'with1874',
 
   // open graph metadata (optional)
@@ -31,8 +31,8 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
-  utterancesGitHubLabel: '博客评论',
+  utterancesGitHubRepo: 'with1874/awesome-nextjs-notion-blog',
+  utterancesGitHubLabel: 'Comments of Blog',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
