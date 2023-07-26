@@ -7,7 +7,7 @@
   "repository": "transitive-bullshit/nextjs-notion-starter-kit",
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=14 <17.0.0"
   },
   "scripts": {
     "dev": "next dev",
@@ -27,7 +27,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@google-cloud/firestore": "^4.9.1",
+    "@google-cloud/firestore": "^6.5.0",
     "chrome-aws-lambda": "^5.5.0",
     "classnames": "^2.2.6",
     "colorthief": "^2.3.2",
